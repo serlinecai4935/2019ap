@@ -1,4 +1,4 @@
-public class Question1 {
+public class APCalendar {
     /** Returns true if year is a leap year and false otherwise. */
     private static boolean isLeapYear(int year)
     {
@@ -13,9 +13,9 @@ public class Question1 {
     {
         int num = 0;
         for(int i=year1; i<=year2; i++){
-           if(isLeapYear(i)){
-               num++;
-           }
+            if(isLeapYear(i)){
+                num++;
+            }
         }
         return num;
     }
