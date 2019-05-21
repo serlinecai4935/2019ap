@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 
-public class StepTracker {
+public class
+StepTracker {
     private int steps;
     private ArrayList<Integer> a;
 
